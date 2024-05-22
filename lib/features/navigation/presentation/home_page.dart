@@ -37,7 +37,8 @@ class HomePage extends StatelessWidget {
                 child: const Text('Classes'),
               ),
               const Spacer(),
-              const Icon(Icons.lunch_dining)
+              const Icon(Icons.lunch_dining),
+              const Spacer(),
             ],
           ),
         ),

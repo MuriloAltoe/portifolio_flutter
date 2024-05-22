@@ -17,7 +17,7 @@ class _ItensState extends State<Itens> {
       child: Column(
         children: [
           const Center(
-            child: Text("Itens de dano físico"),
+            child: Text("Itens de dano mágico"),
           ),
           const Spacer(),
           Center(
@@ -77,7 +77,7 @@ class _ItensState extends State<Itens> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('BottomNavigation'),
+        title: const Text('Itens'),
       ),
       body: Center(
         child: pages[_selectIndex],

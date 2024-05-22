@@ -77,7 +77,7 @@ class _ClassesState extends State<Classes> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('BottomNavigation'),
+        title: const Text('Classes'),
       ),
       body: Center(
         child: pages[_selectIndex],
