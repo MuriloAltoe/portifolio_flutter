@@ -7,7 +7,7 @@ class HomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text(''),
+        title: const Text('Frameworks para programação'),
         centerTitle: true,
       ),
       body: Padding(
@@ -20,21 +20,21 @@ class HomePage extends StatelessWidget {
                 onPressed: () {
                   Navigator.of(context).pushNamed('/formulario');
                 },
-                child: const Text('Ir para o formulário'),
+                child: const Text('Cadastrar curricúlo'),
               ),
               const Spacer(),
               ElevatedButton(
                 onPressed: () {
-                  Navigator.of(context).pushNamed('/itens');
+                  Navigator.of(context).pushNamed('/front');
                 },
-                child: const Text('Itens'),
+                child: const Text('Front-end'),
               ),
               const Spacer(),
               ElevatedButton(
                 onPressed: () {
-                  Navigator.of(context).pushNamed('/classes');
+                  Navigator.of(context).pushNamed('/back');
                 },
-                child: const Text('Classes'),
+                child: const Text('Back-end'),
               ),
               const Spacer(),
               const Icon(Icons.lunch_dining),
